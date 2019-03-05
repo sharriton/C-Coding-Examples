@@ -1,0 +1,13 @@
+______________
+BMI_CONVERSION
+______________
+
+The BMI_Conversion console app was made to import a BMI royalty statement.  There is data missing from the statement that needs
+to be retrieved from the BPB.csv file. The BMI statement adjusts the title of the songs that are searched for. Because of that,
+all of the titles from the BPB.csv file are imported and then converted to the naming conventions of the BMI royalty statement.
+For example, all titles are capitalized, all titles that begin with 'The ' or 'A ' have 'The ' and 'A ' removed from the 
+beginning etc.. There are multiple matches of some of the titles in the BPB.csv. The program creates a new folder on the desktop
+with the days date that includes a .txt file that lists all track titles from the BMI royalty statement that have multiple 
+matches in the BPB.csv file. This way someone can check by hand, if things were matched properly on those titles. Once all the 
+title converting, importing and matching is done, a new BMI royalty statement is created in a folder on the desktop. The new 
+statement includes all publisher data so that the correct publishers can be paid.
